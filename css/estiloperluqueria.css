@@ -1,0 +1,43 @@
+body {
+	
+	background: url(../pe.jpg);
+	background-repeat:repeat-x;
+}
+h1{
+	font-weight:bold;
+	text-align:center;
+	text-shadow:10px 10px 10px #000;
+	background:#ccc;
+
+}
+
+p{
+	color:white;
+	font-family: "Arial";
+	font-size:20px;
+	text-align:justify;
+	line-height:30px;
+	text-shadow:5px 5px 5px #000;
+}
+.Menu{
+	list-style: none;
+    padding: 0;
+	background: #092327;
+	width: 90%;
+	max-width: 1000%;
+	margin: auto;
+}
+.Menu li a {
+	text-decoration: none;
+	color: white;
+	padding: 20;
+	display: block;
+	
+}
+.Menu li{
+	display: inline-block;
+	text-align: center;
+}
+.Menu li a:hover{
+   background: #FF0000;
+}
